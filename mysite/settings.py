@@ -131,9 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Login redirect
 
-LOGIN_REDIRECT_URL = 'post_list'
-LOGIN_URL = 'login'
-LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = '/'
 
 
 # For Heroku
